@@ -1,11 +1,17 @@
 {
-  "report_server":{
+  "plugin_version": {
+    "semver": "1.2.0-beta.3",
+    "update_link":"https://github.com/Clamb94/StableApproach/releases"
+  },
+  "va":{
+    "report_server":{
       "enabled": true,
       "host": "crew.jet-simulation.com",
       "target": "/dstable"
-   },
-  "plugin_version": {
-    "semver": "1.0.0",
-    "update_link":"https://github.com/Clamb94/StableApproach/releases"
+    },
+    "aircraft_profiles":{
+      "use_custom": true,
+      "revert_to_default": true
+    }
   }
 }
