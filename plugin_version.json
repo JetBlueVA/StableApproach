@@ -1,4 +1,9 @@
 {
+  "report_server":{
+      "enabled": true,
+      "host": "crew.jet-simulation.com",
+      "target": "/dstable"
+   },
   "plugin_version": {
     "semver": "1.0.0",
     "update_link":"https://github.com/Clamb94/StableApproach/releases"
