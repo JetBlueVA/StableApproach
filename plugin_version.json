@@ -6,7 +6,7 @@
   "va":{
     "report_server":{
       "enabled": true,
-      "host": "crew.jet-simulation.com",
+      "host": "dispatch.jetblueva.com",
       "target": "/dstable"
     },
     "aircraft_profiles":{
