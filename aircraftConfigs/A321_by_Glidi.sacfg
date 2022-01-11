@@ -83,15 +83,15 @@
                 "type": "2",
                 "beginConditionMarker": "#CH",
                 "endConditionMarker": "#TAXI",
-                "description": "Maximum sinkrate during touchdown:\n600 fpm"
+                "description": "Maximum sinkrate during touchdown:\n500 fpm\nHard Landing Check will be performed on this aircraft"
             },
             "requirement": {
                 "name": "Hard landing (fpm)",
-                "primaryCondition": "$analysis.touchdown_combined.fpm_agl.max > -600",
+                "primaryCondition": "$analysis.touchdown_combined.fpm_agl.max > -500",
                 "type": "2",
                 "beginConditionMarker": "#CH",
                 "endConditionMarker": "#TAXI",
-                "description": "Maximum sinkrate during touchdown:\n600 fpm"
+                "description": "Maximum sinkrate during touchdown:\n500 fpm\nHard Landing Check will be performed on this aircraft"
             }
         },
         "group": {
@@ -248,7 +248,7 @@
                 "type": "0",
                 "beginConditionMarker": "#TD-3000ms",
                 "endConditionMarker": "#TD+3000ms",
-                "description": "Information only: Autoland"
+                "description": "Information only: Autoland Performed"
             },
             "requirement": {
                 "name": "Autopilot engaged",
